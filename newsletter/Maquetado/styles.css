@@ -47,3 +47,53 @@ body{
     display: block;
     margin: auto;
 }
+
+.lema{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.lema h3{
+    color: white;
+    font-size: 2em;
+}
+.lema p{
+    color: white;
+}
+
+.table-info{
+    width: 100%;
+}
+
+.table-info p{
+    color: white;
+}
+
+.imagen-run {
+    color: white;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    background-color: black; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer h2{
+    color: gray;
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+
+.footer button{
+    background-color: gray;
+    color: white;
+    padding: 10px 45px;
+    text-decoration: none;
+}
