@@ -101,6 +101,7 @@ body{
 
 .contenedor-carreras {
     background-color: black;
+
 }
 
 .carreras-descripcion {
@@ -167,17 +168,7 @@ body{
     text-decoration: none;
 }
 
-.circulo{
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    border: 4px solid gray;
-    border-radius: 50%;
-}
-
-.circulo2 {
+.circulo {
     width: 100px;
-    height: 160px;
-    border: 0;
-    padding: 0;
+    height: 155px;
 }
