@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body{
     height: 100%;
     margin: 0;
@@ -16,8 +20,18 @@ body{
     margin: auto;
     max-width: 800px; 
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.imagen-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.imagen-logo-news {
+    width: 250px;
+    height: 250px;
 }
 
 .logo-nike{
@@ -35,8 +49,20 @@ body{
     background-color: black;
 }
 
+.divisores {
+    background-color: black; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.divisores-linea {
+    color: gray;
+}
+
 .descripcion-zapatilla {
     color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -57,10 +83,14 @@ body{
 
 .lema h3{
     color: white;
-    font-size: 2em;
+    font-size: 4rem;
+    font-weight: 300;
 }
+
 .lema p{
     color: white;
+    font-size: 1.4rem;
+    font-weight: 200;
 }
 
 .table-info{
@@ -71,9 +101,49 @@ body{
     color: white;
 }
 
+.contenedor-carreras {
+    background-color: black;
+}
+
+.carreras-descripcion {
+    width: 45%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.carreras-descripcion-ubicacion {
+    font-size: 2.8rem;
+    font-weight: 200;
+}
+
+.carreras-descripcion-texto {
+    font-size: 1.1rem;
+    font-weight: 200;
+    font-family: monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carreras-descripcion-items {
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-family: monospace;
+}
+
+.carreras-descripcion-medio {
+    width: 10%;
+    text-align: center; 
+}
+
+.marco-imagen-run {
+    width: 45%;
+    padding-top: 15px;
+}
+
 .imagen-run {
     color: white;
     width: 250px;
+    height: 140px;
     display: block;
     margin: auto;
 }
@@ -88,7 +158,8 @@ body{
 .footer h2{
     color: gray;
     padding-bottom: 30px;
-    font-size: 2em;
+    font-size: 3.5rem;
+    font-weight: 400;
 }
 
 .footer button{
@@ -97,3 +168,4 @@ body{
     padding: 10px 45px;
     text-decoration: none;
 }
+
