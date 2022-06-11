@@ -1,0 +1,106 @@
+/*Zapatillas General*/ 
+
+body {
+    background-color: #fefffe;
+}
+
+.titulo {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.text_titulo {
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container_zapatillas {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.container_trekking, .container_city {
+    width: 100%;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 35px;
+    margin-left: 35px;  
+    border: 5px solid rgb(228, 228, 228);
+    border-radius: 4px;
+}
+
+.zapa_city_main, .zapa_trekking_main {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.info_city, .info_trekking {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.boton_city, .boton_trekking {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*Zapatillas City y Trekking*/
+
+.categoria_city {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.img_cat_city {
+    max-width: 100%;
+    max-height: 100%;
+}   
+
+.cont_zapas_city {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont_zapas_1y2, .cont_zapas_3y4 {
+    margin-right: 35px;
+    margin-left: 35px;  
+}
+
+.zapa1, .zapa2, .zapa3, .zapa4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_zapa_1, .img_zapa_2, .img_zapa_3, .img_zapa_4 {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nombre_zapa {
+    font-size: 2vw;
+}
