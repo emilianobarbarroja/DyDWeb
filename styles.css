@@ -68,11 +68,12 @@ body {
 .categoria_city {
     width: 100%;
     margin: auto;
-    align-items: center;
-    justify-items: center;
+    display: flex;
 }
 
 .img_cat_city {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     max-height: 100%;
 }   
