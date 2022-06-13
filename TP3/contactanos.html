@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Dropdown nav-bar Bar</title>
+	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css"> 
+    <link rel="stylesheet" href="css/nav.css"> 
+    <link rel="stylesheet" href="css/contact.css"> 
+</head>
+ 
+<body>
+  <section class="nav-bar">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="/"><img src="img/logo.png"></a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="#">Carreras</a>
+        </li>
+        <li>
+          <a href="#">Calzados</a>
+        </li>
+        <li>
+          <a href="#!">Indumentaria</a>
+        </li>
+        <li>
+          <a href="#!">Contactanos</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+<section class="contact">
+    <div style="width: 100%; text-align: center;">
+        <h2>¡Contactanos!</h3>
+    </div>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+                
+            <label for="consulta">Consulta</label>
+            <textarea id="consulta" name="consulta" placeholder="Consulta" style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+
+
+ 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script  src="function.js"></script>
+</body>
+ 
+</html>
