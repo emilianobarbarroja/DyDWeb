@@ -1,0 +1,32 @@
+.titulo_indumentaria {
+    display: flex;
+    justify-content: center;
+}
+
+.h1_ind {
+    font-size: 5.5vw;
+}
+
+.container_main {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+}
+
+.div_prenda1, .div_prenda2, .div_prenda3, .div_prenda4, .div_prenda5, .div_prenda6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+} 
+
+.img_prenda1, .img_prenda2, .img_prenda3, .img_prenda4, .img_prenda5, .img_prenda6 {
+    display: block;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.p_prenda {
+    font-size: 2vw;
+}
