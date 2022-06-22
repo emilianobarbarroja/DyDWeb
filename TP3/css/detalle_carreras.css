@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    height: 5vh;
+}
+
+.titulo {
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: underline 3px;
+}
+
+.padre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descripcion {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapa {
+    width: 100%;
+}
+
+.inscribite {
+    margin-top: 15px;
+    text-align: center;
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inscribite a{
+    font-size: 3rem;
+    font-weight: 800;
+    text-decoration: none;
+    outline: none;
+    color: grey;
+}
+
+.inscribite a:hover {
+    color: #557c8b;
+    outline: auto 1px;
+}
+
+.inscribite a:active {
+    background: #a8a8a8;
+    color: #557c8b;
+}
+
+footer {
+    height: 5vh;
+}
+
+
+@media (min-width: 768px) {
+    .descripcion {
+        width: 50%;
+        font-size: 2.6rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .mapa {
+        width: 50%;
+    }
+    .mapa iframe {
+        height: 500px;
+    }
+    .contador {
+        width: 50%;
+        order: 2;
+    }
+    .inscribite {
+        margin-top: 0%;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+    .inscribite a {
+        font-size: 5rem;
+    }
+}
+
+
+
+
+
