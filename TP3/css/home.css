@@ -343,9 +343,31 @@ header a:hover {
 
 .apps .box {
     float: left;
-    max-width: 45%;
+    width: 50%;
     text-align: center;
-    margin-left: 30px;
+}
+
+.apps .box .container{
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+
+.apps .box .container a {
+    top:10px;
+    left: 10px;
+    position: absolute;
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+.apps .box .container a:hover {
+    color: #557c8b;
 }
 
 .apps .box img {
@@ -360,7 +382,7 @@ header a:hover {
     font-size: 20px;
     margin-bottom: 0;
     color: black;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -368,17 +390,7 @@ header a:hover {
     font-size: 18px;
     padding:15px 0px 15px 0px;
     margin: 0%;
-    text-align: left;
-}
-
-.apps a {
-    padding: 6px 20px;
-    border-radius: 30px;
-    border: 1.5px solid transparent;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    color: white;
+    text-align: center;
 }
 
 /* Somos */
@@ -616,44 +628,6 @@ aside#cuadrito .destacado textarea {
 	margin: 0 !important;
 }
 
-/* .footer-distributed .footer-center i{
-	background-color:  #577b8a;
-	color: #ffffff;
-	font-size: 20px;
-	width: 40px;
-	height: 40px;
-	border-radius: 60%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-} */
-
-/* .footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-} */
-
-/* .footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-  font-weight:400;
-	vertical-align: middle;
-	margin:0;
-} */
-
-/* .footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-} */
-
-/* .footer-distributed .footer-center p a{
-	color:  #729cac;
-	text-decoration: none;
-} */
-
 .footer-distributed .footer-links a:before {
   content: "|";
   font-weight:300;
@@ -793,6 +767,18 @@ aside#cuadrito .destacado textarea {
         margin-top: 15px;
         margin-bottom: 0;
     }
+
+    .apps .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .apps .box .container{
+        position: relative;
+        width: 500px;
+        margin: auto;
+    } */
 
     article#somos-columna {
         float: none;
