@@ -568,7 +568,7 @@ aside#cuadrito .destacado textarea {
 .footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
-  font-weight:400;
+    font-weight:400;
 	text-decoration: none;
 	color:  inherit;
 }
@@ -581,6 +581,11 @@ aside#cuadrito .destacado textarea {
 }
 
 /* Footer Center */
+
+.footer-names {
+    color: white;
+    list-style: none;
+}
 
 .footer-distributed .footer-center{
 	width: 35%;
