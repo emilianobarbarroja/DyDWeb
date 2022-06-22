@@ -230,39 +230,9 @@ header a:hover {
     }
 }
 
-/* Newsletter */
-#newsletter {
-    background-color: #463e38;
-    /*background-color: #b9b1ac;*/
-
-    
-    color: aliceblue;
-    padding: 15px;
-}
-
-#newsletter h3 {
-    float: left;
-    font-size: 15px;
-    ;
-    margin-right: 20px;
-    ;
-    margin-top: 20px;
-}
-
-#newsletter form {
-    float: left;
-    margin-top: 10px;
-}
-
-#newsletter input {
-    width: 200px;
-    height: 40px;
-    border-radius: 4px;
-}
-
 /* Boxes */
 #boxes {
-    margin: 80px 0px 80px 0px;
+    margin: 80px 0px 20px 0px;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -279,8 +249,8 @@ header a:hover {
 }
 
 #boxes .box img {
-    max-width: 120px;
-    opacity: 0.5;
+    /* max-width: 120px;
+    opacity: 0.5; */
     display: block;
     text-align: center;
     margin-left: auto;
@@ -356,6 +326,59 @@ header a:hover {
     padding: 0px 20px;
     text-align: center;
 
+}
+#boxes a{
+    text-decoration: none;
+    color: black;
+}
+
+.apps{
+    margin-bottom: 30px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.apps .box {
+    float: left;
+    max-width: 45%;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.apps .box img {
+    max-width: 500px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apps h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+    text-align: left;
+
+}
+
+.apps p {
+    font-size: 18px;
+    padding:15px 0px 15px 0px;
+    margin: 0%;
+    text-align: left;
+}
+
+.apps a {
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
 }
 
 /* Somos */
@@ -741,19 +764,6 @@ aside#cuadrito .destacado textarea {
 
     #vidriera p {
         font-size: 18px;
-    }
-
-    #newsletter h3,
-    #newsletter form {
-        float: none;
-        text-align: center;
-        width: 100%;
-        font-size: 18px;
-        margin-top: 5px;
-    }
-
-    #newsletter input {
-        width: 100%;
     }
 
     .boton {
