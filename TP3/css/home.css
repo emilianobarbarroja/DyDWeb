@@ -257,6 +257,11 @@ header a:hover {
     margin-right: auto;
 }
 
+#boxes .box img:hover {
+    box-shadow: 0px 0px 10px 10px gray;
+    -webkit-box-shadow: 0px 0px 10px 10px gray ;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -750,11 +755,16 @@ aside#cuadrito .destacado textarea {
         display: block;
     }
 
+    #boxes {
+        margin: 20px 0px 20px 0px;
+    }
+
     #boxes .box,
     #boxes h2 {
         float: none;
         text-align: center;
         max-width: 100%;
+        margin: 0;
     }
 
     #boxes p {
@@ -763,7 +773,6 @@ aside#cuadrito .destacado textarea {
     }
 
     #boxes .box img {
-        max-inline-size: 200px;
         margin-top: 15px;
         margin-bottom: 0;
     }
@@ -774,11 +783,22 @@ aside#cuadrito .destacado textarea {
         text-align: center;
     }
 
-    /* .apps .box .container{
-        position: relative;
-        width: 500px;
+    .apps .box .container{
+        width: 300px;
         margin: auto;
-    } */
+    }
+
+    .apps .box img {
+        max-inline-size: 300px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    .apps h2 {
+        float: none;
+        text-align: center;
+        max-width: 100%;
+    }
 
     article#somos-columna {
         float: none;
