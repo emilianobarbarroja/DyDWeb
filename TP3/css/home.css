@@ -708,7 +708,6 @@ aside#cuadrito .destacado textarea {
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
 }
 
 /* Media queries */
@@ -744,10 +743,12 @@ aside#cuadrito .destacado textarea {
 
     #vidriera h1 {
         margin-top: 10px;
+        font-size: 60px;
     }
 
     #vidriera p {
         font-size: 18px;
+        margin-top: 75px;
     }
 
     .boton {
