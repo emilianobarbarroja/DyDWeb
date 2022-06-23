@@ -340,6 +340,50 @@ header a:hover {
     color: black;
 }
 
+.inscribite{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inscribite .box {
+    float: left;
+    width: 48%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inscribite .box .container{
+    width: 100%;
+    margin: auto;
+}
+
+.inscribite p {
+    font-size: 15px;
+    padding:0px 0px 15px 0px;
+    margin: 0px;
+    text-align: justify;
+}
+
+.inscribite span{
+    font-size: 17px;
+    margin: 0px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.inscribite h2 {
+    font-size: 30px;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+.inscribite .right h2 {
+    display: none;
+}
+
 .contactanos{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -888,6 +932,27 @@ aside#cuadrito .destacado textarea {
         max-inline-size: 250px;
         margin-top: 15px;
         margin-bottom: 5px;
+    }
+
+    .inscribite .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .inscribite h2 {
+        float: none;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .inscribite .left {
+        display: none;
+    }
+
+    .inscribite .right h2 {
+        display:block;
     }
 
     article#somos-columna {
