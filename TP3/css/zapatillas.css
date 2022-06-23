@@ -57,7 +57,17 @@
     padding-bottom: 5px;
     padding-right: 20px;
     padding-left: 20px;
+    cursor: pointer;
 }
+
+.boton_city:hover {
+    background-color: #557c8b;
+  }
+
+
+.boton_trekking:hover {
+    background-color: #557c8b;
+  }
 
 /*Zapatillas City y Trekking*/
 
@@ -100,4 +110,87 @@
 
 .nombre_zapa {
     font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+    .container_zapatillas {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid green;
+        justify-content: center;
+        
+    }
+    
+    .container_trekking, .container_city {
+        width: 80%;
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 5px solid rgb(228, 228, 228);
+        border-radius: 4px;
+    }
+    
+    .zapa_city_main, .zapa_trekking_main {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .info_city, .info_trekking {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .categoria_city {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img_cat_city {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-height: 100%;
+    }   
+    
+    .cont_zapas_city {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .cont_zapas_1y2, .cont_zapas_3y4 {
+        margin-right: 35px;
+        margin-left: 35px;  
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .zapa1, .zapa2, .zapa3, .zapa4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img_zapa_1, .img_zapa_2, .img_zapa_3, .img_zapa_4 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .nombre_zapa {
+        font-size: 2vw;
+    }
 }
