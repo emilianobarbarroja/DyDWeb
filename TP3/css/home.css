@@ -340,6 +340,49 @@ header a:hover {
     color: black;
 }
 
+.indumentaria {
+    margin: 20px 0px 20px 0px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.indumentaria .box {
+    float: left;
+    max-width: 20%;
+    text-align: center;
+}
+
+.indumentaria h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.indumentaria .box img{
+    display: block;
+}
+
+.indumentaria .box img {
+    /* max-width: 120px;
+    opacity: 0.5; */
+    max-width: 250px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indumentaria .box h3{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: dimgray;
+    padding: 0px 10px;
+    text-align: center;
+}
+
 .inscribite{
     margin-top: 30px;
     margin-bottom: 30px;
