@@ -28,8 +28,6 @@
     justify-content: space-between;
     margin-right: 35px;
     margin-left: 35px;  
-    border: 5px solid rgb(228, 228, 228);
-    border-radius: 4px;
 }
 
 .zapa_city_main, .zapa_trekking_main {
@@ -37,6 +35,7 @@
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .info_city, .info_trekking {
@@ -58,6 +57,7 @@
     padding-right: 20px;
     padding-left: 20px;
     cursor: pointer;
+    size: 3vh;
 }
 
 .boton_city:hover {
@@ -106,10 +106,16 @@
     margin-bottom: 50px;
 }
 
+.zapa1, .zapa3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 .img_zapa_1, .img_zapa_2, .img_zapa_3, .img_zapa_4 {
     display: block;
     max-width: 100%;
     max-height: 100%;
+    border-radius: 20px;
 }
 
 .nombre_zapa {
@@ -143,7 +149,6 @@
         margin-bottom: 20px;
         margin-top: 20px;
         align-self: center;
-        border: none;
     }
     
     .zapa_city_main, .zapa_trekking_main {
@@ -203,6 +208,6 @@
     }
     
     .nombre_zapa {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }

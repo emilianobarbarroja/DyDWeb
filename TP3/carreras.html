@@ -4,39 +4,36 @@
     <title>Responsive Dropdown nav-bar Bar</title>
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/common.css"> 
-      <link rel="stylesheet" href="css/nav.css"> 
       <link rel="stylesheet" href="css/slider.css"> 
       <link rel="stylesheet" href="css/carreras.css"> 
-      <link rel="stylesheet" href="css/style_footer.css">
+      <link rel="stylesheet" href="css/home.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+      <link rel="shortcut icon" href="img/fa.jpg">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
  
   <body>
-    <section class="nav-bar">
-      <div class="nav-container">
-        <div class="brand">
-          <a href="index3.html"><img src="img/logo.png" /></a>
-        </div>
-        <nav>
-          <div class="nav-mobile">
-            <a id="nav-toggle" href="#!"><span></span></a>
+    <header>
+      <div class="contenedor">
+          <div id="logo">
+              <h1><a href="index.html"><img src="img/logo.svg" style="width: 60px;"></a></h1>
           </div>
-          <ul class="nav-list">
-            <li>
-              <a href="carreras.html">Carreras</a>
-            </li>
-            <li>
-              <a href="zapatillas_main.html">Calzados</a>
-            </li>
-            <li>
-              <a href="indumentaria.html">Indumentaria</a>
-            </li>
-            <li>
-              <a href="./contactanos.html">Contactanos</a>
-            </li>
-          </ul>
-        </nav>
+          <nav>
+              <ul>
+                  <li><a href="index.html" class="actual">Inicio</a></li>
+                  <li><a href="carreras.html">Carreras</a></li>
+                  <li><a href="zapatillas_main.html">Calzados</a>
+                  </li>
+                  <li><a href="indumentaria.html">Indumentaria</a></li>
+                  <li><a href="contactanos.html">Contacto</a></li>
+              </ul>
+          </nav>
       </div>
-    </section>
+    </header>
     <section id="container-slider">	
         <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
         <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
@@ -102,13 +99,45 @@
             </div>
         </div>
     </section>
-    <footer>
-      <ul class="padre">
-          <li class="hijo"><a href="https://twitter.com/Nike"><img src="img/twitter.png" alt="logo de Twitter"></a></li>
-          <li class="hijo"><a href="https://www.instagram.com/nike/"><img src="img/instagram.png" alt="logo de Instagram"></a></li> 
-          <li class="hijo"><a href="https://www.facebook.com/nike"><img src="img/facebook.png" alt="logo de Facebook"></a></li>
-      </ul>
-      <p class="copyright">© 2022 Nike, Inc. All Rights Reserved</p>
+    <!-- Footer -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+          <img src="img/logo.svg" style="width: 50px;">
+          <p class="footer-links">
+            <a href="index.html" class="actual">Inicio</a>
+            <a href="carreras.html">Carreras</a>
+            <a href="zapatillas_main.html">Calzados</a>
+            <a href="indumentaria.html">Indumentaria</a>
+            <a href="contactanos.html">Contacto</a>
+          </p>
+          <p class="footer-company-name">Grupo 1 - Copyright © 2022</p>
+      </div>
+
+      <div class="footer-center">
+        <p class="footer-team">
+          <span>Equipo Grupo N° 1</span>
+          <ul class="footer-names">
+            <li>Emiliano barbarroja LU: 2020202</li>
+            <li>Franco Ramponi LU: 1139583</li>
+            <li>Riccardi Ignacio LU: 1157603</li>
+            <li>Emiliano barbarroja LU: 2020202</li>
+            <li>Emiliano barbarroja LU: 2020202</li>
+            <li>Emiliano barbarroja LU: 2020202</li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>Nuestras redes sociales</span>
+              Podes contactarnos por cualquiera de nuestras redes sociales:
+          </p>
+          <div class="footer-icons">
+              <a href="https://twitter.com/Nike" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/nike/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://es-la.facebook.com/nike/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+      </div>
     </footer>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script  src="function.js"></script>
