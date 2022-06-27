@@ -483,12 +483,12 @@ header a:hover {
     margin: 0;
     color: black;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.inscribite .right h2 {
+.inscribite .right .title {
     display: none;
 }
-
 
 .inscribite .tyc {
     display: block;
@@ -561,6 +561,7 @@ header a:hover {
   .inscribite .mediospagos{
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 50px;
   }
 
   .inscribite .mediospagos h3{
@@ -1235,8 +1236,12 @@ aside#cuadrito .destacado textarea {
         display: none;
     }
 
-    .inscribite .right h2 {
+    .inscribite .right .title {
         display:block;
+    }
+
+    .inscribite .right .subtitle {
+        display:none;
     }
 
     article#somos-columna {
