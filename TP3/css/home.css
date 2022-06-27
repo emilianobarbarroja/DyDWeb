@@ -363,9 +363,17 @@ header a:hover {
     text-align: center;
 }
 
+.carreras .box-img .btn-mobile {
+    display: none;
+}
+
+.carreras .box-img .title-mobile {
+    display: none;
+}
+
 .carreras .box-img img {
     max-width: 100%;
-    display: block;
+    /* display: block; */
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -662,6 +670,7 @@ input[type=text],input[type=email],input[type=date],input[type=number],select, t
     float: left;
     width: 50%;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .calzado .box .container{
@@ -686,7 +695,7 @@ input[type=text],input[type=email],input[type=date],input[type=number],select, t
 }
 
 .calzado a{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 50px;
     text-align: center;
     text-decoration: none;
@@ -1163,11 +1172,51 @@ aside#cuadrito .destacado textarea {
         max-width: 100%;
     }
 
+    .carreras h2{
+        margin-bottom: 10px;
+    }
+
+    .carreras .title-mobile{
+        display: inline;
+    }
+
+    .carreras .box-desciption{
+        display: none;
+    }
+
+    .carreras .box-img{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .carreras .box-img .btn-mobile{
+        display: inline;
+    }
+
+    .carreras .box-img a{
+        background-color: black;
+        color: white;
+        padding: 8px 13px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .carreras .box-img img {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .calzado .box {
         float: none;
         width: 100%;
         text-align: center;
-        margin-bottom: 30px;
     }
 
     .calzado .box .container{
