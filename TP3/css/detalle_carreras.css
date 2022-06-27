@@ -16,6 +16,10 @@ body {
     text-decoration: underline 3px;
 }
 
+.carreras_titulo h1 {
+    color: black;
+}
+
 .carreras_main {
     margin: 0;
     padding: 0;
