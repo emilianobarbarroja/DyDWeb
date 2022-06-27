@@ -1,105 +1,116 @@
 * {
-    box-sizing: border-box;
     margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5%;
 }
 
 body {
     font-family: 'Nunito', sans-serif;
 }
 
-header {
-    height: 5vh;
-}
-
-.titulo {
-    font-size: 4rem;
+.carreras_titulo {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
     text-decoration: underline 3px;
 }
 
-.padre {
+.carreras_main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
 }
 
-.descripcion {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+.carreras_descripcion {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 0 0 15px 0;
     display: flex;
     flex-wrap: wrap;
 }
 
-.mapa {
+.carreras_descripcion span {
+    color: #557c8b;
+    font-weight: bolder;
+}
+
+.carreras_mapa {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     width: 100%;
 }
 
-.inscribite {
-    margin-top: 15px;
-    text-align: center;
+.carreras_contador {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.carreras_inscribite {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 15px 0 0 0;
     color: green;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
-.inscribite a{
-    font-size: 3rem;
+.carreras_inscribite a{
+    font-size: 50px;
     font-weight: 800;
     text-decoration: none;
     outline: none;
     color: grey;
 }
 
-.inscribite a:hover {
+.carreras_inscribite a:hover {
     color: #557c8b;
     outline: auto 1px;
 }
 
-.inscribite a:active {
+.carreras_inscribite a:active {
     background: #a8a8a8;
     color: #557c8b;
 }
 
-footer {
-    height: 5vh;
-}
 
 
-@media (min-width: 768px) {
-    .descripcion {
+@media (min-width: 769px) {
+    .carreras_descripcion {
         width: 50%;
-        font-size: 2.6rem;
+        font-size: 26px;
         padding-left: 20px;
         padding-right: 20px;
         align-items: center;
         justify-content: center;
     }
-    .mapa {
+    .carreras_mapa {
         width: 50%;
     }
-    .mapa iframe {
+    .carreras_mapa iframe {
         height: 500px;
     }
-    .contador {
+    .carreras_contador {
         width: 50%;
         order: 2;
     }
-    .inscribite {
+    .carreras_inscribite {
         margin-top: 0%;
         width: 50%;
         align-items: center;
         justify-content: center;
         order: 1;
     }
-    .inscribite a {
-        font-size: 5rem;
+    .carreras_inscribite a {
+        font-size: 50px;
     }
 }
 
