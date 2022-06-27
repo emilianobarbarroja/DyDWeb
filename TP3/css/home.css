@@ -1177,7 +1177,7 @@ aside#cuadrito .destacado textarea {
     }
 
     .carreras .title-mobile{
-        display: inline;
+        display: inline !important;
     }
 
     .carreras .box-desciption{
