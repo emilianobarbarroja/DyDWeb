@@ -11,6 +11,7 @@
     font-size: 3vw;
     color: black;
     margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container_zapatillas {
@@ -40,7 +41,7 @@
 }
 
 .info_city, .info_trekking {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 1.5vw;
 }
@@ -121,6 +122,7 @@
 
 .nombre_zapa {
     font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -160,7 +162,7 @@
     }
 
     .info_city, .info_trekking {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Poppins', sans-serif;
         text-align: center;
         font-size: 3vw;
     }
