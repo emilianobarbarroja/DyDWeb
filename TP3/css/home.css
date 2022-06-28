@@ -686,12 +686,12 @@ input[type=text],input[type=email],input[type=date],input[type=number],select, t
 }
 
 .calzado .box img {
-    max-width: 800px;
-    display: block;
+    max-width: 90%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
+    margin-left: 10px;
 }
 
 .calzado a{
