@@ -11,6 +11,12 @@
     font-size: 5.5vw;
 }
 
+.contenedor_header {
+    margin: auto;
+    width: 95%;
+    overflow: hidden;
+}
+
 .contenedor {
     display: flex;
     justify-content: space-around;
