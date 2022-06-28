@@ -903,6 +903,120 @@ aside#cuadrito .destacado textarea {
     padding: 15px;
 }
 
+
+/* Detalle de Carreras */
+
+.carreras_titulo {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    text-decoration: underline 3px;
+}
+
+.carreras_titulo h1 {
+    color: black;
+}
+
+.carreras_main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carreras_descripcion {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 0 0 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carreras_descripcion span {
+    color: #557c8b;
+    font-weight: bolder;
+}
+
+.carreras_mapa {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.carreras_contador {
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.carreras_inscribite {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 0 15px 0;
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.carreras_inscribite a{
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: none;
+    outline: none;
+    color: grey;
+}
+
+.carreras_inscribite a:hover {
+    color: #557c8b;
+    outline: auto 1px;
+}
+
+.carreras_inscribite a:active {
+    background: #a8a8a8;
+    color: #557c8b;
+}
+
+@media (min-width: 769px) {
+    .carreras_descripcion {
+        width: 50%;
+        font-size: 26px;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .carreras_mapa {
+        width: 50%;
+    }
+    .carreras_mapa iframe {
+        height: 500px;
+    }
+    .carreras_contador {
+        width: 50%;
+        order: 2;
+    }
+    .carreras_inscribite {
+        margin-top: 0%;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+    .carreras_inscribite a {
+        font-size: 50px;
+    }
+}
+
+
 /* Footer */
 
 .footer-distributed{
